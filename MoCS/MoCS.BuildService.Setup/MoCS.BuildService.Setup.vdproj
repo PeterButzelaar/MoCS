@@ -15,13 +15,25 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_06C237EBD40A88C2B12C8B66D85CE373"
+        "MsmKey" = "8:_544CC197BBEB0D6FCD3DA22B948D647D"
+        "OwnerKey" = "8:_E1889B5A3274245211E801A7E6C36ACC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_544CC197BBEB0D6FCD3DA22B948D647D"
+        "OwnerKey" = "8:_DA57487F94DEC80450928DADA5D6EFAE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_544CC197BBEB0D6FCD3DA22B948D647D"
         "OwnerKey" = "8:_AE910C80254D460F9294484DA26482E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6D5185BF70C8E91BC7A15D4A0EC223E7"
+        "MsmKey" = "8:_643F088282477513E6EB378D168D5014"
         "OwnerKey" = "8:_AE910C80254D460F9294484DA26482E4"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,32 +45,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CA20C2840CA6417E33DD4EA6A1135B2F"
+        "MsmKey" = "8:_DA57487F94DEC80450928DADA5D6EFAE"
         "OwnerKey" = "8:_AE910C80254D460F9294484DA26482E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E36875278C651CEA8EC3ACF14D117784"
-        "OwnerKey" = "8:_6D5185BF70C8E91BC7A15D4A0EC223E7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E36875278C651CEA8EC3ACF14D117784"
-        "OwnerKey" = "8:_CA20C2840CA6417E33DD4EA6A1135B2F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E36875278C651CEA8EC3ACF14D117784"
+        "MsmKey" = "8:_E1889B5A3274245211E801A7E6C36ACC"
         "OwnerKey" = "8:_AE910C80254D460F9294484DA26482E4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_06C237EBD40A88C2B12C8B66D85CE373"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,19 +64,25 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CA20C2840CA6417E33DD4EA6A1135B2F"
+        "OwnerKey" = "8:_643F088282477513E6EB378D168D5014"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6D5185BF70C8E91BC7A15D4A0EC223E7"
+        "OwnerKey" = "8:_DA57487F94DEC80450928DADA5D6EFAE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E36875278C651CEA8EC3ACF14D117784"
+        "OwnerKey" = "8:_E1889B5A3274245211E801A7E6C36ACC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_544CC197BBEB0D6FCD3DA22B948D647D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -103,6 +103,64 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
+        }
+        "Debug Web MVC3"
+        {
+        "DisplayName" = "8:Debug Web MVC3"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug Web MVC3\\MoCS.BuildService.Setup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -119,6 +177,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -140,7 +206,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -148,14 +214,45 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_06C237EBD40A88C2B12C8B66D85CE373"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_544CC197BBEB0D6FCD3DA22B948D647D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:MoCS.Business.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_544CC197BBEB0D6FCD3DA22B948D647D"
+                    {
+                    "Name" = "8:MoCS.Business.Objects.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:MoCS.Business.Objects.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_203A6F186FDF4AEEA10FF06FF9D0ABA5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_643F088282477513E6EB378D168D5014"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:MoCS.BuildService.Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_06C237EBD40A88C2B12C8B66D85CE373"
+                    "_643F088282477513E6EB378D168D5014"
                     {
                     "Name" = "8:MoCS.BuildService.Business.dll"
                     "Attributes" = "3:512"
@@ -179,45 +276,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6D5185BF70C8E91BC7A15D4A0EC223E7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MoCS.Business.Facade, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_6D5185BF70C8E91BC7A15D4A0EC223E7"
-                    {
-                    "Name" = "8:MoCS.Business.Facade.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:MoCS.Business.Facade.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_203A6F186FDF4AEEA10FF06FF9D0ABA5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CA20C2840CA6417E33DD4EA6A1135B2F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DA57487F94DEC80450928DADA5D6EFAE"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:MoCS.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_CA20C2840CA6417E33DD4EA6A1135B2F"
+                    "_DA57487F94DEC80450928DADA5D6EFAE"
                     {
                     "Name" = "8:MoCS.Data.dll"
                     "Attributes" = "3:512"
@@ -241,20 +307,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E36875278C651CEA8EC3ACF14D117784"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E1889B5A3274245211E801A7E6C36ACC"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MoCS.Business.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MoCS.Business.Facade, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E36875278C651CEA8EC3ACF14D117784"
+                    "_E1889B5A3274245211E801A7E6C36ACC"
                     {
-                    "Name" = "8:MoCS.Business.Objects.dll"
+                    "Name" = "8:MoCS.Business.Facade.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:MoCS.Business.Objects.dll"
+            "SourcePath" = "8:MoCS.Business.Facade.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_203A6F186FDF4AEEA10FF06FF9D0ABA5"
@@ -340,7 +406,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MoCS BuildService"
         "ProductCode" = "8:{33FA4F3A-A362-47E0-9D59-559320684CC2}"
-        "PackageCode" = "8:{D3D977E6-01D3-4FD4-8161-CD5BC86CF74B}"
+        "PackageCode" = "8:{351F59B8-9953-448F-A3AE-E9696B9D1D68}"
         "UpgradeCode" = "8:{51925AA1-95D2-43CF-8265-A94E791CDCC8}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -959,7 +1025,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_AE910C80254D460F9294484DA26482E4"
             {
-            "SourcePath" = "8:..\\MoCS.BuildService\\obj\\Debug\\MoCS.BuildService.exe"
+            "SourcePath" = "8:..\\MoCS.BuildService\\obj\\Debug Web MVC3\\MoCS.BuildService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_203A6F186FDF4AEEA10FF06FF9D0ABA5"
