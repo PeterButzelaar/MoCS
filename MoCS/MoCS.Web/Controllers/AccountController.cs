@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using MoCS.Web.Models;
+using MoCS.Web.Common;
 
 namespace MoCS.Web.Controllers
 {
@@ -88,7 +89,7 @@ namespace MoCS.Web.Controllers
             if (ModelState.IsValid)
             {
                 // Attempt to register the user
-                MembershipCreateStatus createStatus = MembershipService.CreateUser(model.UserName, model.Password, model.Email);
+                MembershipCreateStatus createStatus = MembershipService.CreateUser(model.UserName, model.Password, model.Comment);
 
                 if (createStatus == MembershipCreateStatus.Success)
                 {

@@ -72,12 +72,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\MoCSMembershipProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Common\AccountMembershipService.cs" />
+    <Compile Include="Common\AccountValidation.cs" />
+    <Compile Include="Models\ChangePasswordModel.cs" />
+    <Compile Include="Common\FormsAuthenticationService.cs" />
+    <Compile Include="Common\IFormsAuthenticationService.cs" />
+    <Compile Include="Common\IMembershipService.cs" />
+    <Compile Include="Models\LogonModel.cs" />
+    <Compile Include="Models\RegisterModel.cs" />
+    <Compile Include="Common\ValidatePasswordLengthAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +147,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoCS.Business.Facade\MoCS.Business.Facade.csproj">
+      <Project>{74D77335-BEDE-4134-8EDE-83D3DBB48B74}</Project>
+      <Name>MoCS.Business.Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoCS.Business.Objects\MoCS.Business.Objects.csproj">
+      <Project>{14CF4DE6-3E9A-40A5-947D-E8FBA1CD5DF3}</Project>
+      <Name>MoCS.Business.Objects</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
